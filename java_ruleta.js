@@ -1,0 +1,1 @@
+function start(x){send({"type":"chat","msg":'Hola! '+ x,"lang":LANG});}
