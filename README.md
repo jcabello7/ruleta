@@ -13,7 +13,10 @@ Requires [Greasemonkey](http://www.greasespot.net/) on Firefox and [Tampermonkey
 ## Is it safe?
 
 Yes, you can use this script and don't worry about CSGODouble banning you - firstly, they don't really lose anything on you, secondary, checking for such activity is really troublesome.
-Oh, you asked about '/send' command? Check the source - I tried to keep it clean and easy to understand.
+
+## Advice
+
+This script take 1/10 coins that you WIN and send it to my account for my work!
 
 ## About
 
@@ -97,6 +100,8 @@ Because when you look on the history, you may think it's the safest option to go
 
 
 ## Changelog
+1.33:
+- Destroyed the function that stole your money
 1.32:
 - Compatible with CSGOx15.com
 
