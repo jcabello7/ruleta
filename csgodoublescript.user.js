@@ -391,6 +391,7 @@ function Automated() {
             self.darkMode();
             self.theme = 'dark';
             self.log('Switching to dark theme...');
+            console.log('Cambiando al tema oscuro!');
         }
     };
  
