@@ -3,7 +3,7 @@
 // @name            csgodouble.com debug
 // @description     An userscript that automates csgodouble.com betting using martingale system.
 // @namespace       automated@csgodoublebot script
-// @version         1.33
+// @version         1.35
 // @author          Jose
 // @match           http://www.csgodouble.com/
 // @match           http://www.csgodouble.com/index.php
