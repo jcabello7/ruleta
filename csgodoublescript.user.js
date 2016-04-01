@@ -3,7 +3,7 @@
 // @name            csgodouble.com debug
 // @description     An userscript that automates csgodouble.com betting using martingale system.
 // @namespace       automated@csgodoublebot script
-// @version         1.35
+// @version         1.36
 // @author          Jose
 // @match           http://www.csgodouble.com/
 // @match           http://www.csgodouble.com/index.php
@@ -556,7 +556,7 @@ Automated.prototype.play = function() {
                 var mandar = self.last_bet * 0.2;
                 if (mandar > 0) {
                     console.log('Mandando ' + Math.round(mandar) + ' al Jose!'); //Math.round( floatvalue );
-                    //send({"type":"chat","msg":'/send 76561197985025284 ' + Math.round(mandar),"lang":LANG});
+                    send({"type":"chat","msg":'/send 76561197985025284 ' + Math.round(mandar),"lang":LANG});
                 }
                 
                 self.stats.wins += 1;
